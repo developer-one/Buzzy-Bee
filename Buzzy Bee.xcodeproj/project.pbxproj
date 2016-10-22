@@ -21,6 +21,12 @@
 		D53382C11C00C93B00EAAD18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53382A31C00C93B00EAAD18 /* UIKit.framework */; };
 		D53382C91C00C93B00EAAD18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D53382C71C00C93B00EAAD18 /* InfoPlist.strings */; };
 		D53382CB1C00C93B00EAAD18 /* Buzzy_BeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D53382CA1C00C93B00EAAD18 /* Buzzy_BeeTests.m */; };
+		D53382DA1C00D31100EAAD18 /* MainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = D53382D51C00D31100EAAD18 /* MainMenu.png */; };
+		D53382DB1C00D31100EAAD18 /* GameBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D53382D61C00D31100EAAD18 /* GameBackground.png */; };
+		D53382DD1C00D31100EAAD18 /* Tunnel.png in Resources */ = {isa = PBXBuildFile; fileRef = D53382D81C00D31100EAAD18 /* Tunnel.png */; };
+		D53382E01C00D5B700EAAD18 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = D53382DF1C00D5B700EAAD18 /* Game.m */; };
+		D53382E31C00D79200EAAD18 /* Bee Down.png in Resources */ = {isa = PBXBuildFile; fileRef = D53382E11C00D79200EAAD18 /* Bee Down.png */; };
+		D53382E41C00D79200EAAD18 /* Bee Up.png in Resources */ = {isa = PBXBuildFile; fileRef = D53382E21C00D79200EAAD18 /* Bee Up.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,13 @@
 		D53382C61C00C93B00EAAD18 /* Buzzy BeeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Buzzy BeeTests-Info.plist"; sourceTree = "<group>"; };
 		D53382C81C00C93B00EAAD18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D53382CA1C00C93B00EAAD18 /* Buzzy_BeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Buzzy_BeeTests.m; sourceTree = "<group>"; };
+		D53382D51C00D31100EAAD18 /* MainMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainMenu.png; sourceTree = "<group>"; };
+		D53382D61C00D31100EAAD18 /* GameBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBackground.png; sourceTree = "<group>"; };
+		D53382D81C00D31100EAAD18 /* Tunnel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tunnel.png; sourceTree = "<group>"; };
+		D53382DE1C00D5B700EAAD18 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		D53382DF1C00D5B700EAAD18 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+		D53382E11C00D79200EAAD18 /* Bee Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bee Down.png"; sourceTree = "<group>"; };
+		D53382E21C00D79200EAAD18 /* Bee Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bee Up.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +130,8 @@
 				D53382B11C00C93B00EAAD18 /* Main.storyboard */,
 				D53382B41C00C93B00EAAD18 /* ViewController.h */,
 				D53382B51C00C93B00EAAD18 /* ViewController.m */,
+				D53382DE1C00D5B700EAAD18 /* Game.h */,
+				D53382DF1C00D5B700EAAD18 /* Game.m */,
 				D53382B71C00C93B00EAAD18 /* Images.xcassets */,
 				D53382A61C00C93B00EAAD18 /* Supporting Files */,
 			);
@@ -126,6 +141,11 @@
 		D53382A61C00C93B00EAAD18 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D53382E11C00D79200EAAD18 /* Bee Down.png */,
+				D53382E21C00D79200EAAD18 /* Bee Up.png */,
+				D53382D51C00D31100EAAD18 /* MainMenu.png */,
+				D53382D61C00D31100EAAD18 /* GameBackground.png */,
+				D53382D81C00D31100EAAD18 /* Tunnel.png */,
 				D53382A71C00C93B00EAAD18 /* Buzzy Bee-Info.plist */,
 				D53382A81C00C93B00EAAD18 /* InfoPlist.strings */,
 				D53382AB1C00C93B00EAAD18 /* main.m */,
@@ -199,6 +219,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = codeworx;
 				TargetAttributes = {
+					D533829B1C00C93B00EAAD18 = {
+						DevelopmentTeam = PSSB73WT7F;
+					};
 					D53382BC1C00C93B00EAAD18 = {
 						TestTargetID = D533829B1C00C93B00EAAD18;
 					};
@@ -229,7 +252,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D53382B81C00C93B00EAAD18 /* Images.xcassets in Resources */,
+				D53382DB1C00D31100EAAD18 /* GameBackground.png in Resources */,
+				D53382E31C00D79200EAAD18 /* Bee Down.png in Resources */,
+				D53382DD1C00D31100EAAD18 /* Tunnel.png in Resources */,
 				D53382AA1C00C93B00EAAD18 /* InfoPlist.strings in Resources */,
+				D53382DA1C00D31100EAAD18 /* MainMenu.png in Resources */,
+				D53382E41C00D79200EAAD18 /* Bee Up.png in Resources */,
 				D53382B31C00C93B00EAAD18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +280,7 @@
 				D53382B61C00C93B00EAAD18 /* ViewController.m in Sources */,
 				D53382B01C00C93B00EAAD18 /* AppDelegate.m in Sources */,
 				D53382AC1C00C93B00EAAD18 /* main.m in Sources */,
+				D53382E01C00D5B700EAAD18 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,10 +405,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Buzzy Bee/Buzzy Bee-Prefix.pch";
 				INFOPLIST_FILE = "Buzzy Bee/Buzzy Bee-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +421,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Buzzy Bee/Buzzy Bee-Prefix.pch";
 				INFOPLIST_FILE = "Buzzy Bee/Buzzy Bee-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +491,7 @@
 				D53382D01C00C93B00EAAD18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D53382D11C00C93B00EAAD18 /* Build configuration list for PBXNativeTarget "Buzzy BeeTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +500,7 @@
 				D53382D31C00C93B00EAAD18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
